@@ -1,6 +1,6 @@
 import numpy as np
 
-data = np.zeros((3,4))
+data = np.zeros((10,5))
 
 print(data)
 
