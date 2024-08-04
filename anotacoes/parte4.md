@@ -56,6 +56,19 @@ Ele vai fazer uma ordenação em relação a cada coluna
 ---
 Temos o axis 0(linhas) e o axis 1(colunas)
 
-np.sort(cartela_)
+      np.sort(cartela_bingo, axis = 0)
+      array([6, 4, 2, 1]
+            [10, 10, 3, 15]
+            [14, 19, 18, 27]
+            [16, 23, 18, 27])
+
+----
+      np.sort(cartela_bingo, axis = 1)
+      array([3, 10, 15, 16]
+            [14, 17, 23, 17]
+            [1, 3, 6, 19]
+            [4, 10, 18, 19])
+
+
 
 

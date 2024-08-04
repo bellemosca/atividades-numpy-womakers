@@ -10,11 +10,10 @@
 ## Arrays e mais dimensões
 
 #### Array 3D
-- arr1_2d = np.array([[1,2],[3,4]])
-- arr2_2d = np.array([[5,6],[7,8]])
-- arr3_2d = np.array([[9,2],[3,4]])
-
-- arr_3d = np.array([arr1_2d, arr2_2d, arr3_2d])
+    arr1_2d = np.array([[1,2],[3,4]])
+    arr2_2d = np.array([[5,6],[7,8]])
+    arr3_2d = np.array([[9,2],[3,4]])
+    arr_3d = np.array([arr1_2d, arr2_2d, arr3_2d])
 
 ##### Alguns programadores e a documentação do numpay as vezes vão se referir ao array como vetores, matrizes ou tensores. Esses termos são mais matemáticos. 
 ##### Um vetor se refere a um array com uma dimensão só.
@@ -37,8 +36,7 @@
 .fltter()
 
 ## Reshaping- mudando as dimensões
-arr = np.array([3,2,4], [8,11,5])
-
-arr.reshape((3,2))
+    arr = np.array([3,2,4], [8,11,5])
+    arr.reshape((3,2))
 
 
